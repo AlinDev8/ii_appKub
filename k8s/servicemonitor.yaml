@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sentiment-app-metrics
+  labels:
+    app: sentiment-app
+spec:
+  selector:
+    app: sentiment-app
+  ports:
+  - name: metrics
+    port: 8080
+    targetPort: 8080
+  type: ClusterIP
