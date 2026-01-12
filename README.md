@@ -20,4 +20,3 @@
 - **NGINX Ingress Controller** - маршрутизация HTTP трафика
 - **Prometheus + Grafana** - мониторинг и визуализация метрик
 
-## Архитектура проекта
